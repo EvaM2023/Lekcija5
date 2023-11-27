@@ -199,8 +199,9 @@ list_of_countries = {
 "Zimbabwe" : "Harare"
 }
 
-correct = 0;
+correct = 0
 incorrect = 0
+
 for country in list_of_countries:
     capital = list_of_countries[country]
     print("What is the capital city of", country+"?")
